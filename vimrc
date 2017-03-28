@@ -12,15 +12,15 @@ nnoremap <DOWN> gj
 nnoremap <UP> gk
 
 "set color
-colorscheme elflord
+"colorscheme elflord
 
 "closing statements
-inoremap { {}<Esc>i
-inoremap ( ()<Esc>i
-inoremap [ []<Esc>i
-inoremap " ""<Esc>i
-inoremap ' ''<Esc>i
-inoremap < <><Esc>i
+"inoremap { {}<Esc>i
+"inoremap ( ()<Esc>i
+"inoremap [ []<Esc>i
+"inoremap " ""<Esc>i
+"inoremap ' ''<Esc>i
+"inoremap < <><Esc>i
 "inoremap <CR> ;<CR><Esc>i
 
 "Persistent Undo
