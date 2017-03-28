@@ -27,5 +27,7 @@ inoremap < <><Esc>i
 try
     set undodir=~/.vim_runtime/temp_dirs/undodir
     set undofile
+    set undolevels=100
+    set undoreload=100
 catch
 endtry
