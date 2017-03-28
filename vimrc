@@ -31,3 +31,7 @@ try
     set undoreload=100
 catch
 endtry
+
+"Opens a new file
+"   tabe <filename>
+"'gt' to toggle tabs
