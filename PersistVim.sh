@@ -1,5 +1,8 @@
 #!/bin/bash
 
-mkdir ~/.vim_runtime;
-mkdir ~/.vim_runtime/temp_dirs;
-mkdir ~/.vim_runtime/temp_dirs/undodir;
+me=`whoami`;
+homeDir=`echo /home/${me}/`
+
+mkdir ${homeDir}.vim_runtime;
+mkdir ${homeDir}.vim_runtime/temp_dirs;
+mkdir ${homeDir}.vim_runtime/undodir;
