@@ -12,16 +12,7 @@ nnoremap <DOWN> gj
 nnoremap <UP> gk
 
 "set color
-"colorscheme elflord
-
-"closing statements
-"inoremap { {}<Esc>i
-"inoremap ( ()<Esc>i
-"inoremap [ []<Esc>i
-"inoremap " ""<Esc>i
-"inoremap ' ''<Esc>i
-"inoremap < <><Esc>i
-"inoremap <CR> ;<CR><Esc>i
+colorscheme elflord
 
 "Persistent Undo
 try
@@ -32,6 +23,17 @@ try
 catch
 endtry
 
+
+"NOTES:
 "Opens a new file
 "   tabe <filename>
 "'gt' to toggle tabs
+
+"closing statements
+"inoremap { {}<Esc>i
+"inoremap ( ()<Esc>i
+"inoremap [ []<Esc>i
+"inoremap " ""<Esc>i
+"inoremap ' ''<Esc>i
+"inoremap < <><Esc>i
+"inoremap <CR> ;<CR><Esc>i
