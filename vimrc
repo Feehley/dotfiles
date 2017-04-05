@@ -5,7 +5,7 @@ set nu
 set cursorline
 set shiftwidth=4
 set tabstop=4
-set noerrorbells
+set noerrorbells vb t_vb=
 
 "remap keys
 nnoremap <DOWN> gj
@@ -22,18 +22,3 @@ try
     set undoreload=100
 catch
 endtry
-
-
-"NOTES:
-"Opens a new file
-"   tabe <filename>
-"'gt' to toggle tabs
-
-"closing statements
-"inoremap { {}<Esc>i
-"inoremap ( ()<Esc>i
-"inoremap [ []<Esc>i
-"inoremap " ""<Esc>i
-"inoremap ' ''<Esc>i
-"inoremap < <><Esc>i
-"inoremap <CR> ;<CR><Esc>i
