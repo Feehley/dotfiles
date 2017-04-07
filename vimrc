@@ -1,20 +1,25 @@
 syntax enable
 
-"set statements
 set nu
 set cursorline
 set shiftwidth=4
 set tabstop=4
 set noerrorbells vb t_vb=
 
-"remap keys
 nnoremap <DOWN> gj
 nnoremap <UP> gk
 
-"set color
 colorscheme elflord
 
-"Persistent Undo
+" Courtesy of Heptadecagram (https://github.com/heptadecagram)
+let &titlestring = hostname() . ":" . fnamemodify(expand("%:p"), ":~")
+let &titleold = hostname()
+
+if has("autocmd")
+    autocmd BufRead *   silent! %s/[\r \t]\+$/
+endif " has("autocmd")
+
+" Persistent Undo
 try
     set undodir=~/.vim_runtime/temp_dirs/undodir
     set undofile
