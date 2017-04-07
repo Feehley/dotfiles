@@ -12,12 +12,11 @@ nnoremap <UP> gk
 colorscheme elflord
 
 " Courtesy of Heptadecagram (https://github.com/heptadecagram)
-let &titlestring = hostname() . ":" . fnamemodify(expand("%:p"), ":~")
-let &titleold = hostname()
-
+" ############################################################
 if has("autocmd")
     autocmd BufRead *   silent! %s/[\r \t]\+$/
 endif " has("autocmd")
+" ############################################################
 
 " Persistent Undo
 try
