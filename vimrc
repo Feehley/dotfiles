@@ -20,7 +20,7 @@ endif " has("autocmd")
 
 " Persistent Undo
 try
-    set undodir=~/.vim_runtime/temp_dirs/undodir
+    set undodir=~/.vim_runtime/undodir
     set undofile
     set undolevels=100
     set undoreload=100
