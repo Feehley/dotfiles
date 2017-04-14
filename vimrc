@@ -2,8 +2,7 @@ syntax enable
 
 set nu
 set cursorline
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=4 tabstop=4
 set noerrorbells vb t_vb=
 
 nnoremap <DOWN> gj
