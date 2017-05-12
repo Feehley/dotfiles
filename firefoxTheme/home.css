@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+
+html {
+  background: url(./wallhaven.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.main{
+  position: absolute;
+  width: 504px;
+  top: 20px;
+  left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: left;
+}
+
+a {
+ color: #F7EBF5;
+ text-decoration: none;
+}
+
+a:hover {
+  color: #F7EBF5;
+  text-decoration: line-through;
+}
+
+a:visited {
+  color: #F7EBF5;
+  text-decoration: none;
+}
