@@ -16,6 +16,18 @@
 				</form>
 			<p>
 			</p>
+				<a href="https://youtube.com" target="_blank">YouTube</a> &nbsp;
+				<script type="text/javascript">
+					function youSubmit() {
+						window.location.href = "https://www.youtube.com/results?search_query=" + document.getElementById('youSearch').value;
+					}
+				</script>
+				<form action="javascript: youSubmit();">
+					<input id="youSearch" type="text" placeholder="YouTube Search . . ." autofocus>
+				</form>
+
+			<p>
+			</p>
 			<a href="https://github.com/search" target="_blank">GitHub</a> &nbsp;
 			<script type="text/javascript">
 				function gitSubmit() {
