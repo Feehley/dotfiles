@@ -21,7 +21,7 @@ if (fileName == 'py')
         nnoremap <buffer> H :<C-u> execute "!pydoc " . expand("<cword>")<CR>
         nnoremap <C-DOWN> 0i#<ESC>                 
 elseif (fileName == 'c' || fileName == 'cpp')      
-    nnoremap <buffer> H :<C-u> execute "!man " . expand("<cword>")<CR>
+        nnoremap <buffer> H :<C-u> execute "!man " . expand("<cword>")<CR>
         nnoremap <C-DOWN> 0i//<ESC>                
 endif       
 
